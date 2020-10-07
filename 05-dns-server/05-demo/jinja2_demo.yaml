@@ -1,0 +1,21 @@
+---
+# This playbook assumes that you have variable "domain" in group_vars
+# This playbook assumes that you have group "dns_servers" in inventory
+- name: Gather facts
+  hosts: all
+  tasks:
+    - setup:
+
+- name: Jinja2 examples
+  hosts: vm1
+  tasks:
+    - debug:
+        msg: 
+          - "Variable 'groups':"
+          - "{{ groups }}"
+          - "Variable 'grous[dns_servers]':"
+          - "{{ groups['dns_servers'] }}"
+          - "Loop over list:"
+          - "{% for vm in groups['all'] %}{{ vm }}.{{ domain }} has address {{ hostvars[vm]['ansible_default_ipv4']['address'] }} {% endfor %}"
+          - "Find all DNS servers IPs for /etc/resolv.conf:"
+          - "{% for vm in groups['dns_servers'] %}nameserver {{ hostvars[vm]['ansible_default_ipv4']['address'] }} {% endfor %}"
