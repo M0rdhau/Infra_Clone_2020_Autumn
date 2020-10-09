@@ -60,9 +60,13 @@ These rules are efficient since Sep 24, 2020 and until next announcement.
  - Lecture: DNS server; Jinja2 templates
  - Lab: Bind9 as a DNS server
 
-Week 6: TBA -- Oct 6
+[Week 6: Prometheus](./06-prometheus) -- Oct 6
+ - Lecture: Node exporter, Prometheus, HTTP reverse proxy
+ - Lab: Setup node monitoring with Prometheus
 
-Week 7: TBA -- Oct 13
+[Week 7: Grafana](./07-Grafana) -- Oct 13
+ - Lecture: Mysql exporter, Bind exporter, Nginx exporter, Grafana
+ - Lab: Install Grafana and exporters for running services
 
 Week 8: TBA -- Oct 20
 
