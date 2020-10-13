@@ -1,10 +1,15 @@
 ---
 # This playbook assumes that you have variable "domain" in group_vars
-# This playbook assumes that you have group "dns_servers" in inventory
+# This playbook assumes that you have group "dns_servers" and "web_servers" in inventory
 - name: Gather facts
   hosts: all
   tasks:
     - setup:
+    - debug:
+        msg:
+          - "This VM hostname is {{ inventory_hostname }}"
+          - "{% if inventory_hostname in groups['dns_servers'] %}This host in group DNS{% endif %}"
+          - "{% if inventory_hostname in groups['web_servers'] %}This host in group WEB{% endif %}"
 
 - name: Jinja2 examples
   hosts: vm1
