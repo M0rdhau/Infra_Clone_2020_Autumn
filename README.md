@@ -64,11 +64,13 @@ These rules are efficient since Sep 24, 2020 and until next announcement.
  - Lecture: Node exporter, Prometheus, HTTP reverse proxy
  - Lab: Setup node monitoring with Prometheus
 
-[Week 7: Grafana](./07-Grafana) -- Oct 13
+[Week 7: Grafana](./07-grafana) -- Oct 13
  - Lecture: Mysql exporter, Bind exporter, Nginx exporter, Grafana
  - Lab: Install Grafana and exporters for running services
 
-Week 8: TBA -- Oct 20
+[Week 8: Logging](./08-logging) -- Oct 20
+ - Lecture: InfluxDB, Telegraf, Rsyslog
+ - Lab: Install InfluxDB and Telegraf, configure Rsyslog
 
 Week 9: TBA -- Oct 27
 
