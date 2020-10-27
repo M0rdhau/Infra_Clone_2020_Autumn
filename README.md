@@ -72,7 +72,9 @@ These rules are efficient since Sep 24, 2020 and until next announcement.
  - Lecture: InfluxDB, Telegraf, Rsyslog
  - Lab: Install InfluxDB and Telegraf, configure Rsyslog
 
-Week 9: TBA -- Oct 27
+[Week 9: Backups](./09-backups) -- Oct 27
+ - Lecture: backup theory
+ - Lab: Prepare backup infra
 
 Week 10: TBA -- Nov 3
 
