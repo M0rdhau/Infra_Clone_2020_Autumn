@@ -162,6 +162,7 @@ related to real life.
 
 Your repository contains these files and directories:
 
+	backup_sla.md
 	lab09_backups.yaml
 	roles/backup/tasks/main.yaml
 
