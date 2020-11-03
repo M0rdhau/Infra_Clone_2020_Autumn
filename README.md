@@ -76,7 +76,9 @@ These rules are efficient since Sep 24, 2020 and until next announcement.
  - Lecture: backup theory
  - Lab: Prepare backup infra
 
-Week 10: TBA -- Nov 3
+[Week 10: Backups](./10-backups) -- Nov 3
+ - Lecture: backup demo
+ - Lab: Set up automatic backups
 
 Week 11: TBA -- Nov 10
 
