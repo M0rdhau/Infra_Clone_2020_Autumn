@@ -122,15 +122,12 @@ Now it's time to test if replication actually works. On the managed host open
 the MySQL shell by running `mysql` as user root, and then:
 
 	STOP SLAVE;
-	CHANGE MASTER TO MASTER_HOST='192.168.42.xxx',
+	CHANGE MASTER TO MASTER_HOST='<your-mysql-master-host>',
 	                 MASTER_USER='replication',
 	                 MASTER_PASSWORD='<your-replication-password>'
 	RESET SLAVE;
 	START SLAVE;
 	SHOW SLAVE STATUS\G
-
-Here it is okay to use IP address here -- we are just testing, it's not a ready
-setup yet.
 
 The output of the last command should show contain no errors. Fileds to check
 are `Last_IO_Error` and `Last_SQL_Error`.
