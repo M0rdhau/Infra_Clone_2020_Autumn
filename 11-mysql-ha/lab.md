@@ -68,7 +68,7 @@ for details on how to achieve this.
 
 Run this command on the managed host to verify that the user can log in:
 
-	mysql -u replication p
+	mysql -u replication -p
 
 
 ## Task 4
