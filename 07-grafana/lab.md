@@ -78,11 +78,11 @@ Don't add locations that point to unexisting services. You can use this code for
 ## Task 6: Create dashboard in Grafana
 
 Create Grafana dashboard that will show:
-    - CPU load on VMs
-    - Memory consumption on VMs
-    - Bind9 status + amount of DNS queries per minute (bind_resolver_queries_total)
-    - MySQL status + amount of queries per minute (mysql_global_status_queries)
-    - Nginx status + amount of requests per minute (nginx_http_requests_total)
+ - CPU load on VMs
+ - Memory consumption on VMs
+ - Bind9 status + amount of DNS queries per minute (bind_resolver_queries_total)
+ - MySQL status + amount of queries per minute (mysql_global_status_queries)
+ - Nginx status + amount of requests per minute (nginx_http_requests_total)
 
 Copy dashboard json (Dashboard settings -> JSON model) to your repo for backup purposes.
 It can be copy-pasted back to Grafana in future.
