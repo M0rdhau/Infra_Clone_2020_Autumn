@@ -515,7 +515,7 @@ system logs:
 We can add another rule to clean up the backup repository and discard old
 backups:
 
-	11 0 * * 0    backup  duplicity removbe-older-than 30D rsync://<user>@backup.de.mo//home/<user>
+	11 0 * * 0    backup  duplicity remove-older-than 30D rsync://<user>@backup.de.mo//home/<user>
 
 This would delete all backups older than 30 days.
 
