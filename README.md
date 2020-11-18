@@ -85,7 +85,7 @@ These rules are efficient since Sep 24, 2020 and until next announcement.
  - Demo: MySQL replication (note: [this demo attempt](https://echo360.org.uk/lesson/G_bc7a1c9b-4127-4fbc-aace-65bb8ba6ab20_af86ccbe-eff5-431e-a67f-29fb6e1240d8_2020-11-11T16:00:00.000_2020-11-11T17:35:00.000/classroom?focus=Video) was more successful)
  - Lab: Set up MySQL replication
 
-[Week 12: Virtualization](./12-virtualization) -- Nov 17
+[Week 12: Virtualization](./12-docker) -- Nov 17
  - Lecture: Intro to virtualization; Containerization
  - Demo: Docker basics
  - Lab: Reinstall Aama and Grafana to run in Docker
