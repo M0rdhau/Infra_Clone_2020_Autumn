@@ -39,8 +39,8 @@ Untar it to /usr/local/bin.
 Create Systemd service unit: /etc/systemd/system/prometheus-nginx-exporter.service
 
 Check how to write Systemd service units by examples of:
-    - /lib/systemd/system/prometheus-bind-exporter.service
-    - /lib/systemd/system/prometheus-mysqld-exporter.service
+ - /lib/systemd/system/prometheus-bind-exporter.service
+ - /lib/systemd/system/prometheus-mysqld-exporter.service
 
 It makes sense to use the same user for your exporter as other exporters do, but make sure that user exists before attempting to start the service.
 
