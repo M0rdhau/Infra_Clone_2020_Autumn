@@ -61,23 +61,23 @@ These rules are efficient since Sep 24, 2020 and until next announcement.
  - Lab: Bind9 as a DNS server
 
 [Week 6: Prometheus](./06-prometheus) -- Oct 6
- - Lecture: Node exporter, Prometheus, HTTP reverse proxy
+ - Lecture: Node exporter; Prometheus; HTTP reverse proxy
  - Lab: Setup node monitoring with Prometheus
 
 [Week 7: Grafana](./07-grafana) -- Oct 13
- - Lecture: Mysql exporter, Bind exporter, Nginx exporter, Grafana
+ - Lecture: Mysql exporter; Bind exporter; Nginx exporter; Grafana
  - Lab: Install Grafana and exporters for running services
 
 [Week 8: Logging](./08-logging) -- Oct 20
- - Lecture: InfluxDB, Telegraf, Rsyslog
- - Lab: Install InfluxDB and Telegraf, configure Rsyslog
+ - Lecture: InfluxDB; Telegraf; Rsyslog
+ - Lab: Install InfluxDB and Telegraf; configure Rsyslog
 
 [Week 9: Backups](./09-backups) -- Oct 27
- - Lecture: backup theory
+ - Lecture: Backup theory
  - Lab: Prepare backup infra
 
 [Week 10: Backups](./10-backups) -- Nov 3
- - Lecture: backup demo
+ - Lecture: Backup demo
  - Lab: Set up automatic backups
 
 [Week 11: High availability](./11-mysql-ha) -- Nov 10
@@ -88,7 +88,7 @@ These rules are efficient since Sep 24, 2020 and until next announcement.
 [Week 12: Virtualization](./12-docker) -- Nov 17
  - Lecture: Intro to virtualization; Containerization
  - Demo: Docker basics
- - Lab: Reinstall Aama and Grafana to run in Docker
+ - Lab: Reinstall Agama and Grafana to run in Docker
 
 Week 13: TBA -- Nov 24
 
