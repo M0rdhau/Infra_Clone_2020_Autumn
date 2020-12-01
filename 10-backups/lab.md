@@ -212,9 +212,12 @@ have finished!
 
 Once Duplicity creates its first backup make sure you can resotre the service
 from it. For that, download the backup to the managed host and try restoring the
-service. Example commands run on the managed host as user `root`:
+service. Example commands run on the managed host as user `backup`:
 
-	sudo -u backup duplicity --no-encryption restore rsync://elvis@backup.x.y//home/elvis/ /home/backup/restore/
+	duplicity --no-encryption restore rsync://elvis@backup.x.y//home/elvis/ /home/backup/restore/
+
+And then as user `root`:
+
 	service prometheus stop
 	rm -rf /var/lib/prometheus/*
 	cp -a /home/backup/restore/prometheus/* /var/lib/prometheus/
