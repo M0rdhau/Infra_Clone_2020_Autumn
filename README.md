@@ -90,16 +90,28 @@ These rules are efficient since Sep 24, 2020 and until next announcement.
  - Demo: Docker basics
  - Lab: Reinstall Agama and Grafana to run in Docker
 
-Week 13: TBA -- Nov 24
+[Week 13: HAProxy](./13-haproxy) -- Nov 24
+ - Lecture: Load balancers; HAProxy; Keepalived
+ - Lab: HAProxy; Keepalived
 
-Week 14: TBA -- Dec 1
+[Week 14: DNS slave](./14-bind-slave) -- Dec 1
+ - Lecture: DNS HA setups
+ - Lab: Bind9 slave
 
-Week 15: TBA -- Dec 8
+[Week 15: Final lab](./15-final-lab) -- Dec 8
+ - Lecture: Final lab task
+ - Lab: Final lab
 
 Week 16: Exam -- Dec 15
  - First exam attempt (optional)
- - More exam times will be available on session weeks
 
+## Exam times
+
+ - 22.12 16:00 room 319
+ - 29.12 16:00 room 319
+ - 05.01 16:00 room 319
+
+You can choose any 2 times to take the exam in addition to week 16 exam attempt, 3 attempts in total.
 
 ## Teacher contacts
 
