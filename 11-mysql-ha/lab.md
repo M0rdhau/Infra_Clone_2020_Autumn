@@ -35,7 +35,7 @@ already, so it shouldn't take too long to achieve.
 
 ## Task 2
 
-Add another dahsboard named 'MySQL' to Grafana (if you haven't done it yet).
+Add another dashboard named 'MySQL' to Grafana (if you haven't done it yet).
 
 Add a few more graphs for every MySQL server -- we have one so far but will have
 more soon.
