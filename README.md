@@ -98,7 +98,7 @@ These rules are efficient since Sep 24, 2020 and until next announcement.
  - Lecture: DNS HA setups
  - Lab: Bind9 slave
 
-[Week 15: Final lab](./15-final-lab) -- Dec 8
+[Week 15: Final lab](./exam) -- Dec 8
  - Lecture: Final lab task
  - Lab: Final lab
 

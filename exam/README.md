@@ -222,4 +222,4 @@ references as answers -- if they answer the question, of course :)
 Good luck!
 ----------
 
-![](./unicorn.png)
+![](./unicorn.jpeg)
