@@ -106,6 +106,25 @@ Requirements
    `localhost` -- not `127.0.0.1`!
 
 
+Rules
+-----
+
+Exam starts strictly at the announced time and lasts for exactly
+**3 hours and 15 minutes** (195 minutes) -- not a minute longer.
+
+Submissions are checked on first-come-first-served basis.
+
+This is open-everything exam: you can use whatever materials you want while
+writing the code, testing it or presenting.
+
+There is one exception: during the exam it is **not allowed** to use anything
+that produces sound:
+ - YouTube videos
+ - discussion with other students
+ - your favorite song playing loud that gives you inspiration
+ - etc.
+
+
 Testing
 -------
 
