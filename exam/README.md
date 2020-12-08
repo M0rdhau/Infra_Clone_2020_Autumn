@@ -121,6 +121,8 @@ changes, you are ready to present your solution.
 [Here](./meta.md#Testing) you can find more details on how we will test your
 submission.
 
+**But make sure to test it yourself first!**
+
 
 Good luck!
 ----------
