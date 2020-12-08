@@ -112,6 +112,16 @@ Requirements
    `localhost` -- not `127.0.0.1`!
 
 
+Presenting your solution
+------------------------
+
+If you have run the Ansible command mentioned above, and it did not trigger any
+changes, you are ready to present your solution.
+
+[Here](./meta.md#Testing) you can find more details on how we will test your
+submission.
+
+
 Good luck!
 ----------
 

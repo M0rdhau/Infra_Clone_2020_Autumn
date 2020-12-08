@@ -44,9 +44,6 @@ that produces sound:
 Testing
 -------
 
-If you have run the Ansible command mentioned above, and it did not trigger any
-changes, you are ready to present your solution.
-
 This is what we (teachers) may do to test your infrastructure.
 
 
