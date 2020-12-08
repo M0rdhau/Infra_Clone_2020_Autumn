@@ -107,9 +107,9 @@ Week 16: Exam -- Dec 15
 
 ## Exam times
 
- - 22.12 16:00 room 319
- - 29.12 16:00 room 319
- - 05.01 16:00 room 319
+ - Dec 22 at 16:00 -- room 319
+ - Dec 29 at 16:00 -- room 319
+ - Jan 5 at 16:00 -- room 319
 
 You can choose any 2 times to take the exam in addition to week 16 exam attempt, 3 attempts in total.
 
