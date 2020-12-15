@@ -97,13 +97,13 @@ Hint:
 
 `--haproxy.scrape-uri="http://haproxy.example.com/haproxy?stats;csv"` is a command that you should pass to container, might be missleading as it looks like parameter. Example:
 
-  - name: HAProxy exporter
-    docker_container:
-      name: haproxy_exporter
-      image: quay.io/prometheus/haproxy-exporter:v0.9.0
-      ports:
-        - 9101:9101
-      command: --haproxy.scrape-uri="http://haproxy.example.com/haproxy?stats;csv"
+    - name: HAProxy exporter
+        docker_container:
+        name: haproxy_exporter
+        image: quay.io/prometheus/haproxy-exporter:v0.9.0
+        ports:
+            - 9101:9101
+        command: --haproxy.scrape-uri="http://haproxy.example.com/haproxy?stats;csv"
 
 ## Task 5. Add Keepalived monitoring
 
