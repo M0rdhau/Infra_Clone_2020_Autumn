@@ -104,6 +104,7 @@ These rules are efficient since Sep 24, 2020 and until next announcement.
 
 Week 16: Exam -- Dec 15
  - First exam attempt (optional)
+ - Exam happens in Discord. Make sure you have access to our channel.
 
 ## Exam times
 
