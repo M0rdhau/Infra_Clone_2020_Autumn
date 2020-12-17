@@ -30,7 +30,7 @@ so you don't need to worry about the `-1-` part of the `3-2-1` rule.
 
 Configure your DNS server to resolve the backup server name in your domain.
 
-Backup server IP address is 192.168.42.31. Note that this address may change in
+Backup server IP address is 192.168.42.156. Note that this address may change in
 future, so do not hard-code it but store as the Ansible variable.
 
 Once done, each of your virtual machines should be able to resolve backup server
@@ -41,7 +41,7 @@ name. You can check it by running this command on any of your VMs (replace
 
 You should receive something like this in response:
 
-	backup.foo.bar has address 192.168.42.31
+	backup.foo.bar has address 192.168.42.156
 
 
 ## Task 2
