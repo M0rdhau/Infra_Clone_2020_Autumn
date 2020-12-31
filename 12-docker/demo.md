@@ -43,6 +43,16 @@ Next, let's make sure that Docker container runtime itself is up and running:
 
 	docker info
 
+In order to make use of our locally running Bind9 DNS server inside a Docker container, you'd need to add the Docker network `172.17.0.0/16` to the list of `allow-query` subnets in the Bind9 options file.
+
+	acl internals { 192.168.42.0/21; 127.0.0.0/8; 172.17.0.0/16; };
+
+	options {
+		// --snip--
+		allow-query { internals; };
+		// --snip--
+	};
+
 
 ## First Docker container
 
