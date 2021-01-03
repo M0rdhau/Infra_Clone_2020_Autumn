@@ -56,9 +56,9 @@ Hint #2: If you don't like hint #1, you can create host variable `dns_role` and 
 
 Good idea to include `search` option there as well. In that case you don't need to specify your full domain every time. Template example:
 
-  search {{ your_domain }}     // will be added to short names
-  nameserver {{ dns_master }}  // can be a loop over all masters
-  nameserver {{ dns_slave }}   // can be a loop over all slaves
+    search {{ your_domain }}     // will be added to short names
+    nameserver {{ dns_master }}  // can be a loop over all masters
+    nameserver {{ dns_slave }}   // can be a loop over all slaves
 
 ## Task 5. Rewrite Ansible bind role
 
