@@ -110,7 +110,7 @@ Week 16: Exam -- Dec 15
 
  - Jan 5 at 16:00 -- Discord
  - Jan 12 at 16:00 -- Discord
- - Jan 19 at 16:00 -- TBA
+ - Jan 19 at 16:00 -- Discord
 
 You can choose any 2 times to take the exam in addition to week 16 exam attempt, 3 attempts in total.
 
